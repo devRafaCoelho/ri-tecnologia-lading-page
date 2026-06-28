@@ -53,6 +53,13 @@ img {
   display: block;
 }
 
+.svg-defs {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -483,8 +490,21 @@ ul {
 
 .service-card__icon {
   flex-shrink: 0;
-  font-size: 2rem;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   line-height: 1;
+}
+
+.service-card__icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.service-card--wide .service-card__header {
+  margin-bottom: 36px;
 }
 
 .service-card__header h3 {
@@ -516,7 +536,11 @@ ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  margin-top: 8px;
+  margin-top: 0;
+}
+
+.service-card--wide .service-card__steps {
+  margin-top: 4px;
 }
 
 .step {
@@ -560,6 +584,7 @@ ul {
 .timeline__item {
   display: flex;
   gap: 20px;
+  align-items: flex-start;
   padding: 20px 0;
   border-bottom: 1px solid var(--border);
 }
@@ -582,6 +607,11 @@ ul {
   border-radius: var(--radius);
 }
 
+.timeline__content {
+  flex: 1;
+  min-width: 0;
+}
+
 .timeline__item h3 {
   font-size: 1.1rem;
   font-weight: 700;
@@ -591,6 +621,7 @@ ul {
 .timeline__item p {
   font-size: 1rem;
   color: var(--text-muted);
+  margin: 0;
 }
 
 .methodology__details {
@@ -738,7 +769,7 @@ ul {
 }
 
 .stack-group h4 {
-  font-size: 0.88rem;
+  font-size: 1.05rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -821,6 +852,10 @@ ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
+}
+
+.clients-grid .client-logo:last-child:nth-child(3n + 1) {
+  grid-column: 2;
 }
 
 .client-logo {
@@ -1051,6 +1086,10 @@ ul {
   .stack-grid,
   .pillars {
     grid-template-columns: 1fr;
+  }
+
+  .clients-grid .client-logo:last-child:nth-child(3n + 1) {
+    grid-column: auto;
   }
 
   .hero__stats {
