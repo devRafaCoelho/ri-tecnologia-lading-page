@@ -1,465 +1,580 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="RI Tecnologia — Consultoria especializada em desenvolvimento de software, automação, monitoramento e infraestrutura.">
-  <title>RI Tecnologia | Soluções em Tecnologia</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" type="image/jpeg" href="assets/logo.jpeg">
-</head>
-<body>
-
-  <!-- Header -->
-  <header class="header" id="header">
-    <div class="container header__inner">
-      <a href="#inicio" class="header__logo">
-        <img src="assets/logo.jpeg" alt="RI Tecnologia" width="160" height="48">
-      </a>
-      <button class="header__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <nav class="header__nav" id="navMenu">
-        <a href="#sobre">Sobre</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#metodologia">Metodologia</a>
-        <a href="#equipe">Equipe</a>
-        <a href="#stack">Stack</a>
-        <a href="#clientes">Clientes</a>
-        <a href="#contato" class="btn btn--sm">Contato</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-
-    <!-- Hero -->
-    <section class="hero" id="inicio">
-      <div class="hero__bg"></div>
-      <div class="container hero__content">
-        <span class="hero__tag">Apresentação Executiva</span>
-        <h1 class="hero__title">
-          Soluções em<br>
-          <span class="gradient-text">Tecnologia</span>
-        </h1>
-        <p class="hero__subtitle">
-          Consultoria especializada em desenvolvimento de software, automação,
-          monitoramento e infraestrutura — entregando valor real ao seu negócio.
-        </p>
-        <div class="hero__actions">
-          <a href="#servicos" class="btn btn--primary">Conheça nossos serviços</a>
-          <a href="#contato" class="btn btn--outline">Fale conosco</a>
-        </div>
-        <div class="hero__stats">
-          <div class="stat">
-            <span class="stat__number">4+</span>
-            <span class="stat__label">Anos de mercado</span>
-          </div>
-          <div class="stat">
-            <span class="stat__number">Full-Cycle</span>
-            <span class="stat__label">Equipe multidisciplinar</span>
-          </div>
-          <div class="stat">
-            <span class="stat__number">Ágil</span>
-            <span class="stat__label">Metodologias consolidadas</span>
-          </div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="RI Tecnologia — Consultoria especializada em desenvolvimento de software, automação, monitoramento e infraestrutura."
+    />
+    <title>RI Tecnologia | Soluções em Tecnologia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/jpeg" href="assets/logo.jpeg" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="container header__inner">
+        <a href="#inicio" class="header__logo">
+          <img
+            src="assets/logo.jpeg"
+            alt="RI Tecnologia"
+            width="160"
+            height="48"
+          />
+        </a>
+        <button
+          class="header__toggle"
+          id="navToggle"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="header__nav" id="navMenu">
+          <a href="#sobre">Sobre</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#metodologia">Metodologia</a>
+          <a href="#equipe">Equipe</a>
+          <a href="#stack">Stack</a>
+          <a href="#clientes">Clientes</a>
+          <a href="#contato" class="btn btn--sm">Contato</a>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <!-- Sobre -->
-    <section class="section" id="sobre">
-      <div class="container">
-        <div class="section__header">
-          <span class="section__tag">Institucional</span>
-          <h2 class="section__title">Quem Somos</h2>
-        </div>
-        <div class="about">
-          <div class="about__text">
-            <p>
-              A <strong>RI Tecnologia</strong> é uma empresa especializada em consultoria e
-              desenvolvimento de soluções tecnológicas, atuando há mais de 4 anos no mercado
-              com o objetivo de apoiar empresas na transformação digital.
-            </p>
-            <p>
-              Nosso foco está em entregar soluções robustas, escaláveis e seguras, alinhadas
-              às necessidades estratégicas de cada cliente — desde a fase de discovery até a
-              sustentação em ambiente produtivo.
-            </p>
-          </div>
-          <div class="about__cards">
-            <div class="card card--mission">
-              <div class="card__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-              </div>
-              <h3>Missão</h3>
-              <p>Apoiar a transformação digital com qualidade técnica e geração de valor real para o negócio.</p>
-            </div>
-            <div class="card card--diff">
-              <div class="card__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-              </div>
-              <h3>Diferenciais</h3>
-              <ul>
-                <li>Equipe multidisciplinar full-cycle</li>
-                <li>Metodologias ágeis consolidadas</li>
-                <li>Foco em inovação contínua</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Serviços -->
-    <section class="section section--alt" id="servicos">
-      <div class="container">
-        <div class="section__header">
-          <span class="section__tag">Escopo Técnico</span>
-          <h2 class="section__title">Nossos Serviços</h2>
-          <p class="section__desc">Soluções completas para impulsionar a transformação digital do seu negócio.</p>
-        </div>
-        <div class="services-grid">
-
-          <article class="service-card">
-            <div class="service-card__icon">⚙</div>
-            <h3>Automação de Rotinas</h3>
-            <ul>
-              <li>Identificação de processos passíveis de automação</li>
-              <li>Desenvolvimento de scripts (Python, PowerShell)</li>
-              <li>Testes, validação e documentação</li>
-              <li>Treinamento dos usuários finais</li>
-            </ul>
-          </article>
-
-          <article class="service-card">
-            <div class="service-card__icon">📊</div>
-            <h3>Dashboards</h3>
-            <ul>
-              <li>Levantamento de KPIs com stakeholders</li>
-              <li>Configuração de fontes de dados no Grafana</li>
-              <li>Dashboards interativos customizados</li>
-              <li>Alertas e notificações por métricas</li>
-            </ul>
-          </article>
-
-          <article class="service-card">
-            <div class="service-card__icon">🗄</div>
-            <h3>Configuração de Banco de Dados</h3>
-            <ul>
-              <li>Integração com OTRS, Zabbix e Grafana</li>
-              <li>Conexões seguras e consultas otimizadas</li>
-              <li>MySQL (Workbench) e SQL Server (SSMS)</li>
-            </ul>
-          </article>
-
-          <article class="service-card">
-            <div class="service-card__icon">🔗</div>
-            <h3>Integrações &amp; APIs</h3>
-            <ul>
-              <li>Mapeamento de APIs internas e externas</li>
-              <li>Autenticação e autorização seguras</li>
-              <li>Testes de integração e documentação</li>
-            </ul>
-          </article>
-
-          <article class="service-card service-card--wide">
-            <div class="service-card__icon">💻</div>
-            <h3>Desenvolvimento de Aplicações</h3>
-            <div class="service-card__steps">
-              <div class="step">
-                <span class="step__num">1</span>
-                <div>
-                  <strong>Coleta de Requisitos</strong>
-                  <p>Definição de escopo com stakeholders e levantamento funcional completo.</p>
-                </div>
-              </div>
-              <div class="step">
-                <span class="step__num">2</span>
-                <div>
-                  <strong>Tecnologias &amp; Frameworks</strong>
-                  <p>Escolha da stack adequada ao contexto, incluindo ferramentas Microsoft (PowerApps).</p>
-                </div>
-              </div>
-              <div class="step">
-                <span class="step__num">3</span>
-                <div>
-                  <strong>Desenvolvimento Full-Stack</strong>
-                  <p>Boas práticas de engenharia: front-end, back-end e integrações.</p>
-                </div>
-              </div>
-              <div class="step">
-                <span class="step__num">4</span>
-                <div>
-                  <strong>Testes &amp; Deploy</strong>
-                  <p>Unitários, integração e aceitação — implantação em produção com suporte pós-go-live.</p>
-                </div>
-              </div>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- Metodologia -->
-    <section class="section" id="metodologia">
-      <div class="container">
-        <div class="section__header">
-          <span class="section__tag">Institucional</span>
-          <h2 class="section__title">Metodologia de Trabalho</h2>
-        </div>
-        <div class="methodology">
-          <div class="timeline">
-            <div class="timeline__item">
-              <div class="timeline__num">01</div>
-              <h3>Discovery &amp; Entendimento do Negócio</h3>
-              <p>Levantamento de requisitos e definição inicial do escopo da solução.</p>
-            </div>
-            <div class="timeline__item">
-              <div class="timeline__num">02</div>
-              <h3>Planejamento &amp; Priorização</h3>
-              <p>Estruturação do backlog e priorização de entregas com o cliente.</p>
-            </div>
-            <div class="timeline__item">
-              <div class="timeline__num">03</div>
-              <h3>Desenvolvimento Iterativo (Sprints)</h3>
-              <p>Ciclos curtos de 2–3 semanas com entregas incrementais e validação contínua.</p>
-            </div>
-            <div class="timeline__item">
-              <div class="timeline__num">04</div>
-              <h3>Entrega Contínua &amp; Melhoria Evolutiva</h3>
-              <p>Entregas ao final de cada ciclo com validação pelos stakeholders.</p>
-            </div>
-          </div>
-          <div class="methodology__details">
-            <div class="detail-card">
-              <h4>Cerimônias Scrum</h4>
-              <p>Sprint Planning · Daily Meeting · Sprint Review · Sprint Retrospective</p>
-            </div>
-            <div class="detail-card">
-              <h4>Gestão Visual — Kanban</h4>
-              <div class="kanban">
-                <span>Backlog</span>
-                <span>Em Dev</span>
-                <span>Revisão</span>
-                <span>Testes</span>
-                <span>Concluído</span>
-              </div>
-            </div>
-            <div class="detail-card detail-card--benefits">
-              <h4>Benefícios</h4>
-              <ul>
-                <li>Maior agilidade nas entregas</li>
-                <li>Adaptação rápida a mudanças</li>
-                <li>Transparência total no projeto</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Equipe -->
-    <section class="section section--alt" id="equipe">
-      <div class="container">
-        <div class="section__header">
-          <span class="section__tag">Institucional</span>
-          <h2 class="section__title">Nossa Equipe</h2>
-          <p class="section__desc">Time full-cycle com expertise completa em todas as jornadas do projeto.</p>
-        </div>
-        <div class="team-grid">
-          <div class="team-card">
-            <div class="team-card__header team-card__header--blue">
-              <h3>Gestão &amp; Estratégia</h3>
-            </div>
-            <ul>
-              <li>Consultoria e Discovery</li>
-              <li>Product Owner</li>
-              <li>Scrum Master</li>
-              <li>Planejamento estratégico</li>
-            </ul>
-          </div>
-          <div class="team-card">
-            <div class="team-card__header team-card__header--green">
-              <h3>Desenvolvimento</h3>
-            </div>
-            <ul>
-              <li>Design UI/UX</li>
-              <li>Frontend &amp; Mobile</li>
-              <li>Backend &amp; APIs</li>
-              <li>Banco de dados</li>
-              <li>Prototipagem interativa</li>
-            </ul>
-          </div>
-          <div class="team-card">
-            <div class="team-card__header team-card__header--gradient">
-              <h3>Infraestrutura &amp; Segurança</h3>
-            </div>
-            <ul>
-              <li>Cloud Computing</li>
-              <li>DevOps &amp; Monitoramento</li>
-              <li>SecurityOps</li>
-              <li>Proteção contra ameaças</li>
-            </ul>
-          </div>
-        </div>
-        <div class="team-banner">
-          <strong>Time Full-Cycle</strong> — Todos os desenvolvedores possuem expertise em backend, frontend, banco de dados, monitoramento e DevOps, garantindo atendimento completo em todas as jornadas do projeto.
-        </div>
-      </div>
-    </section>
-
-    <!-- Stack -->
-    <section class="section" id="stack">
-      <div class="container">
-        <div class="section__header">
-          <span class="section__tag">Escopo Técnico</span>
-          <h2 class="section__title">Stack Tecnológica</h2>
-        </div>
-        <div class="stack-grid">
-          <div class="stack-group">
-            <h4>Frontend</h4>
-            <div class="tags">
-              <span>HTML5 + CSS</span><span>Angular JS</span><span>React JS</span>
-              <span>Vue JS</span><span>Bootstrap</span>
-            </div>
-          </div>
-          <div class="stack-group">
-            <h4>Backend</h4>
-            <div class="tags">
-              <span>Node.js</span><span>Python / FastAPI</span><span>C# .NET Core</span>
-              <span>PHP</span><span>Ruby</span><span>Go</span>
-            </div>
-          </div>
-          <div class="stack-group">
-            <h4>Banco de Dados</h4>
-            <div class="tags">
-              <span>SQL Server</span><span>MySQL</span><span>PostgreSQL</span>
-              <span>MongoDB</span><span>DBA &amp; Performance</span>
-            </div>
-          </div>
-          <div class="stack-group">
-            <h4>Monitoramento</h4>
-            <div class="tags">
-              <span>Grafana</span><span>Zabbix</span><span>ElasticSearch</span>
-              <span>DynaTrace</span><span>Datadog</span>
-            </div>
-          </div>
-          <div class="stack-group">
-            <h4>DevOps</h4>
-            <div class="tags">
-              <span>CI/CD</span><span>SonarQube</span><span>Testes Unitários</span>
-              <span>Multi-ambiente</span>
-            </div>
-          </div>
-          <div class="stack-group">
-            <h4>Big Data</h4>
-            <div class="tags">
-              <span>Pandas / Numpy</span><span>SSIS (ETL)</span>
-              <span>Analysis Services</span><span>Star / Snowflake</span>
-            </div>
-          </div>
-        </div>
-        <div class="model-pillars">
-          <h3>Modelo de Trabalho</h3>
-          <div class="pillars">
-            <div class="pillar">
-              <strong>SCRUM</strong>
-              <p>Reuniões diárias (Daily) para alinhamento e visibilidade contínua das atividades.</p>
-            </div>
-            <div class="pillar">
-              <strong>Sprints de 15 dias</strong>
-              <p>Ciclos quinzenais com entrega de melhorias contínuas implementadas e validadas.</p>
-            </div>
-            <div class="pillar">
-              <strong>Kanban no Trello</strong>
-              <p>Visibilidade total das atividades de cada sprint com acompanhamento em tempo real.</p>
-            </div>
-          </div>
-          <p class="pillars-footer">Transparência · Celeridade · Qualidade · Melhoria Contínua · Alinhamento constante com o cliente</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Clientes -->
-    <section class="section section--alt" id="clientes">
-      <div class="container">
-        <div class="section__header">
-          <span class="section__tag">Institucional</span>
-          <h2 class="section__title">Nossos Clientes</h2>
-          <p class="section__desc">
-            Ao longo de sua trajetória, a RI Tecnologia tem atuado em projetos relevantes junto a
-            empresas e instituições de diferentes segmentos, contribuindo para o desenvolvimento de
-            soluções tecnológicas que apoiam a transformação digital.
+    <main>
+      <!-- Hero -->
+      <section class="hero" id="inicio">
+        <div class="hero__bg"></div>
+        <div class="container hero__content">
+          <span class="hero__tag">Apresentação Executiva</span>
+          <h1 class="hero__title">
+            Soluções em<br />
+            <span class="gradient-text">Tecnologia</span>
+          </h1>
+          <p class="hero__subtitle">
+            Consultoria especializada em desenvolvimento de software, automação,
+            monitoramento e infraestrutura — entregando valor real ao seu
+            negócio.
           </p>
+          <div class="hero__actions">
+            <a href="#servicos" class="btn btn--primary"
+              >Conheça nossos serviços</a
+            >
+            <a href="#contato" class="btn btn--outline">Fale conosco</a>
+          </div>
+          <div class="hero__stats">
+            <div class="stat">
+              <span class="stat__number">4+</span>
+              <span class="stat__label">Anos de mercado</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">Full-Cycle</span>
+              <span class="stat__label">Equipe multidisciplinar</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">Ágil</span>
+              <span class="stat__label">Metodologias consolidadas</span>
+            </div>
+          </div>
         </div>
-        <div class="clients-grid">
-          <div class="client-logo">
-            <img src="assets/clients/aes.png" alt="AES Corporation" loading="lazy">
+      </section>
+
+      <!-- Sobre -->
+      <section class="section" id="sobre">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__tag">Institucional</span>
+            <h2 class="section__title">Quem Somos</h2>
           </div>
-          <div class="client-logo client-logo--lg">
-            <img src="assets/clients/brivia.jpg" alt="Brivia Group" loading="lazy">
-          </div>
-          <div class="client-logo client-logo--lg">
-            <img src="assets/clients/emdia.png" alt="EmDia" loading="lazy">
-          </div>
-          <div class="client-logo">
-            <img src="assets/clients/fieb.jpg" alt="FIEB" loading="lazy">
-          </div>
-          <div class="client-logo">
-            <img src="assets/clients/fundacred.webp" alt="Fundacred" loading="lazy">
-          </div>
-          <div class="client-logo client-logo--lg">
-            <img src="assets/clients/neoenergia.png" alt="Neoenergia" loading="lazy">
+          <div class="about">
+            <div class="about__text">
+              <p>
+                A <strong>RI Tecnologia</strong> é uma empresa especializada em
+                consultoria e desenvolvimento de soluções tecnológicas, atuando
+                há mais de 4 anos no mercado com o objetivo de apoiar empresas
+                na transformação digital.
+              </p>
+              <p>
+                Nosso foco está em entregar soluções robustas, escaláveis e
+                seguras, alinhadas às necessidades estratégicas de cada cliente
+                — desde a fase de discovery até a sustentação em ambiente
+                produtivo.
+              </p>
+            </div>
+            <div class="about__cards">
+              <div class="card card--mission">
+                <div class="card__icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                    <path d="M2 17l10 5 10-5" />
+                    <path d="M2 12l10 5 10-5" />
+                  </svg>
+                </div>
+                <h3>Missão</h3>
+                <p>
+                  Apoiar a transformação digital com qualidade técnica e geração
+                  de valor real para o negócio.
+                </p>
+              </div>
+              <div class="card card--diff">
+                <div class="card__icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                    />
+                  </svg>
+                </div>
+                <h3>Diferenciais</h3>
+                <ul>
+                  <li>Equipe multidisciplinar full-cycle</li>
+                  <li>Metodologias ágeis consolidadas</li>
+                  <li>Foco em inovação contínua</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
+
+      <!-- Serviços -->
+      <section class="section section--alt" id="servicos">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__tag">Escopo Técnico</span>
+            <h2 class="section__title">Nossos Serviços</h2>
+            <p class="section__desc">
+              Soluções completas para impulsionar a transformação digital do seu
+              negócio.
+            </p>
+          </div>
+          <div class="services-grid">
+            <article class="service-card">
+              <div class="service-card__icon">⚙</div>
+              <h3>Automação de Rotinas</h3>
+              <ul>
+                <li>Identificação de processos passíveis de automação</li>
+                <li>Desenvolvimento de scripts (Python, PowerShell)</li>
+                <li>Testes, validação e documentação</li>
+                <li>Treinamento dos usuários finais</li>
+              </ul>
+            </article>
+
+            <article class="service-card">
+              <div class="service-card__icon">📊</div>
+              <h3>Dashboards</h3>
+              <ul>
+                <li>Levantamento de KPIs com stakeholders</li>
+                <li>Configuração de fontes de dados no Grafana</li>
+                <li>Dashboards interativos customizados</li>
+                <li>Alertas e notificações por métricas</li>
+              </ul>
+            </article>
+
+            <article class="service-card">
+              <div class="service-card__icon">🗄</div>
+              <h3>Configuração de Banco de Dados</h3>
+              <ul>
+                <li>Integração com OTRS, Zabbix e Grafana</li>
+                <li>Conexões seguras e consultas otimizadas</li>
+                <li>MySQL (Workbench) e SQL Server (SSMS)</li>
+              </ul>
+            </article>
+
+            <article class="service-card">
+              <div class="service-card__icon">🔗</div>
+              <h3>Integrações &amp; APIs</h3>
+              <ul>
+                <li>Mapeamento de APIs internas e externas</li>
+                <li>Autenticação e autorização seguras</li>
+                <li>Testes de integração e documentação</li>
+              </ul>
+            </article>
+
+            <article class="service-card service-card--wide">
+              <div class="service-card__icon">💻</div>
+              <h3>Desenvolvimento de Aplicações</h3>
+              <div class="service-card__steps">
+                <div class="step">
+                  <span class="step__num">1</span>
+                  <div>
+                    <strong>Coleta de Requisitos</strong>
+                    <p>
+                      Definição de escopo com stakeholders e levantamento
+                      funcional completo.
+                    </p>
+                  </div>
+                </div>
+                <div class="step">
+                  <span class="step__num">2</span>
+                  <div>
+                    <strong>Tecnologias &amp; Frameworks</strong>
+                    <p>
+                      Escolha da stack adequada ao contexto, incluindo
+                      ferramentas Microsoft (PowerApps).
+                    </p>
+                  </div>
+                </div>
+                <div class="step">
+                  <span class="step__num">3</span>
+                  <div>
+                    <strong>Desenvolvimento Full-Stack</strong>
+                    <p>
+                      Boas práticas de engenharia: front-end, back-end e
+                      integrações.
+                    </p>
+                  </div>
+                </div>
+                <div class="step">
+                  <span class="step__num">4</span>
+                  <div>
+                    <strong>Testes &amp; Deploy</strong>
+                    <p>
+                      Unitários, integração e aceitação — implantação em
+                      produção com suporte pós-go-live.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Metodologia -->
+      <section class="section" id="metodologia">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__tag">Institucional</span>
+            <h2 class="section__title">Metodologia de Trabalho</h2>
+          </div>
+          <div class="methodology">
+            <div class="timeline">
+              <div class="timeline__item">
+                <div class="timeline__num">01</div>
+                <h3>Discovery &amp; Entendimento do Negócio</h3>
+                <p>
+                  Levantamento de requisitos e definição inicial do escopo da
+                  solução.
+                </p>
+              </div>
+              <div class="timeline__item">
+                <div class="timeline__num">02</div>
+                <h3>Planejamento &amp; Priorização</h3>
+                <p>
+                  Estruturação do backlog e priorização de entregas com o
+                  cliente.
+                </p>
+              </div>
+              <div class="timeline__item">
+                <div class="timeline__num">03</div>
+                <h3>Desenvolvimento Iterativo (Sprints)</h3>
+                <p>
+                  Ciclos curtos de 2–3 semanas com entregas incrementais e
+                  validação contínua.
+                </p>
+              </div>
+              <div class="timeline__item">
+                <div class="timeline__num">04</div>
+                <h3>Entrega Contínua &amp; Melhoria Evolutiva</h3>
+                <p>
+                  Entregas ao final de cada ciclo com validação pelos
+                  stakeholders.
+                </p>
+              </div>
+            </div>
+            <div class="methodology__details">
+              <div class="detail-card">
+                <h4>Cerimônias Scrum</h4>
+                <p>
+                  Sprint Planning · Daily Meeting · Sprint Review · Sprint
+                  Retrospective
+                </p>
+              </div>
+              <div class="detail-card">
+                <h4>Gestão Visual — Kanban</h4>
+                <div class="kanban">
+                  <span>Backlog</span>
+                  <span>Em Dev</span>
+                  <span>Revisão</span>
+                  <span>Testes</span>
+                  <span>Concluído</span>
+                </div>
+              </div>
+              <div class="detail-card detail-card--benefits">
+                <h4>Benefícios</h4>
+                <ul>
+                  <li>Maior agilidade nas entregas</li>
+                  <li>Adaptação rápida a mudanças</li>
+                  <li>Transparência total no projeto</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Equipe -->
+      <section class="section section--alt" id="equipe">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__tag">Institucional</span>
+            <h2 class="section__title">Nossa Equipe</h2>
+            <p class="section__desc">
+              Time full-cycle com expertise completa em todas as jornadas do
+              projeto.
+            </p>
+          </div>
+          <div class="team-grid">
+            <div class="team-card">
+              <div class="team-card__header team-card__header--blue">
+                <h3>Gestão &amp; Estratégia</h3>
+              </div>
+              <ul>
+                <li>Consultoria e Discovery</li>
+                <li>Product Owner</li>
+                <li>Scrum Master</li>
+                <li>Planejamento estratégico</li>
+              </ul>
+            </div>
+            <div class="team-card">
+              <div class="team-card__header team-card__header--green">
+                <h3>Desenvolvimento</h3>
+              </div>
+              <ul>
+                <li>Design UI/UX</li>
+                <li>Frontend &amp; Mobile</li>
+                <li>Backend &amp; APIs</li>
+                <li>Banco de dados</li>
+                <li>Prototipagem interativa</li>
+              </ul>
+            </div>
+            <div class="team-card">
+              <div class="team-card__header team-card__header--gradient">
+                <h3>Infraestrutura &amp; Segurança</h3>
+              </div>
+              <ul>
+                <li>Cloud Computing</li>
+                <li>DevOps &amp; Monitoramento</li>
+                <li>SecurityOps</li>
+                <li>Proteção contra ameaças</li>
+              </ul>
+            </div>
+          </div>
+          <div class="team-banner">
+            <strong>Time Full-Cycle</strong> — Todos os desenvolvedores possuem
+            expertise em backend, frontend, banco de dados, monitoramento e
+            DevOps, garantindo atendimento completo em todas as jornadas do
+            projeto.
+          </div>
+        </div>
+      </section>
+
+      <!-- Stack -->
+      <section class="section" id="stack">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__tag">Escopo Técnico</span>
+            <h2 class="section__title">Stack Tecnológica</h2>
+          </div>
+          <div class="stack-grid">
+            <div class="stack-group">
+              <h4>Frontend</h4>
+              <div class="tags">
+                <span>HTML5 + CSS</span><span>Angular JS</span
+                ><span>React JS</span> <span>Vue JS</span><span>Bootstrap</span>
+              </div>
+            </div>
+            <div class="stack-group">
+              <h4>Backend</h4>
+              <div class="tags">
+                <span>Node.js</span><span>Python / FastAPI</span
+                ><span>C# .NET Core</span> <span>PHP</span><span>Ruby</span
+                ><span>Go</span>
+              </div>
+            </div>
+            <div class="stack-group">
+              <h4>Banco de Dados</h4>
+              <div class="tags">
+                <span>SQL Server</span><span>MySQL</span><span>PostgreSQL</span>
+                <span>MongoDB</span><span>DBA &amp; Performance</span>
+              </div>
+            </div>
+            <div class="stack-group">
+              <h4>Monitoramento</h4>
+              <div class="tags">
+                <span>Grafana</span><span>Zabbix</span
+                ><span>ElasticSearch</span> <span>DynaTrace</span
+                ><span>Datadog</span>
+              </div>
+            </div>
+            <div class="stack-group">
+              <h4>DevOps</h4>
+              <div class="tags">
+                <span>CI/CD</span><span>SonarQube</span
+                ><span>Testes Unitários</span>
+                <span>Multi-ambiente</span>
+              </div>
+            </div>
+            <div class="stack-group">
+              <h4>Big Data</h4>
+              <div class="tags">
+                <span>Pandas / Numpy</span><span>SSIS (ETL)</span>
+                <span>Analysis Services</span><span>Star / Snowflake</span>
+              </div>
+            </div>
+          </div>
+          <div class="model-pillars">
+            <h3>Modelo de Trabalho</h3>
+            <div class="pillars">
+              <div class="pillar">
+                <strong>SCRUM</strong>
+                <p>
+                  Reuniões diárias (Daily) para alinhamento e visibilidade
+                  contínua das atividades.
+                </p>
+              </div>
+              <div class="pillar">
+                <strong>Sprints de 15 dias</strong>
+                <p>
+                  Ciclos quinzenais com entrega de melhorias contínuas
+                  implementadas e validadas.
+                </p>
+              </div>
+              <div class="pillar">
+                <strong>Kanban no Trello</strong>
+                <p>
+                  Visibilidade total das atividades de cada sprint com
+                  acompanhamento em tempo real.
+                </p>
+              </div>
+            </div>
+            <p class="pillars-footer">
+              Transparência · Celeridade · Qualidade · Melhoria Contínua ·
+              Alinhamento constante com o cliente
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Clientes -->
+      <section class="section section--alt" id="clientes">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__tag">Institucional</span>
+            <h2 class="section__title">Nossos Clientes</h2>
+            <p class="section__desc">
+              Ao longo de sua trajetória, a RI Tecnologia tem atuado em projetos
+              relevantes junto a empresas e instituições de diferentes
+              segmentos, contribuindo para o desenvolvimento de soluções
+              tecnológicas que apoiam a transformação digital.
+            </p>
+          </div>
+          <div class="clients-grid">
+            <div class="client-logo">
+              <img
+                src="assets/clients/aes.png"
+                alt="AES Corporation"
+                loading="lazy"
+              />
+            </div>
+            <div class="client-logo client-logo--lg">
+              <img
+                src="assets/clients/brivia.jpg"
+                alt="Brivia Group"
+                loading="lazy"
+              />
+            </div>
+            <div class="client-logo client-logo--lg">
+              <img src="assets/clients/emdia.png" alt="EmDia" loading="lazy" />
+            </div>
+            <div class="client-logo">
+              <img src="assets/clients/fieb.jpg" alt="FIEB" loading="lazy" />
+            </div>
+            <div class="client-logo">
+              <img
+                src="assets/clients/fundacred.webp"
+                alt="Fundacred"
+                loading="lazy"
+              />
+            </div>
+            <div class="client-logo client-logo--lg">
+              <img
+                src="assets/clients/neoenergia.png"
+                alt="Neoenergia"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta" id="contato">
+        <div class="container cta__inner">
+          <h2>Pronto para <span class="cta__highlight">iniciar</span>?</h2>
+          <p>
+            Estamos à disposição para alinhar os detalhes, esclarecer dúvidas e
+            formalizar o início da parceria.
+          </p>
+          <div class="cta__steps">
+            <div class="cta__step">
+              <span>01</span>
+              <p>Alinhamento inicial</p>
+            </div>
+            <div class="cta__arrow">→</div>
+            <div class="cta__step">
+              <span>02</span>
+              <p>Definição de escopo</p>
+            </div>
+            <div class="cta__arrow">→</div>
+            <div class="cta__step">
+              <span>03</span>
+              <p>Kick-off do projeto</p>
+            </div>
+          </div>
+          <a
+            href="mailto:italo.nascimento@ritecnologia.com"
+            class="btn btn--primary btn--lg"
+            >Entre em contato</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <img
+          src="assets/logo.jpeg"
+          alt="RI Tecnologia"
+          class="footer__logo"
+          width="120"
+          height="36"
+        />
+        <p>&copy; 2026 RI Tecnologia. Todos os direitos reservados.</p>
       </div>
-    </section>
+    </footer>
 
-    <!-- CTA -->
-    <section class="cta" id="contato">
-      <div class="container cta__inner">
-        <h2>Pronto para <span class="cta__highlight">iniciar</span>?</h2>
-        <p>
-          Estamos à disposição para alinhar os detalhes, esclarecer dúvidas e
-          formalizar o início da parceria.
-        </p>
-        <div class="cta__steps">
-          <div class="cta__step">
-            <span>01</span>
-            <p>Alinhamento inicial</p>
-          </div>
-          <div class="cta__arrow">→</div>
-          <div class="cta__step">
-            <span>02</span>
-            <p>Definição de escopo</p>
-          </div>
-          <div class="cta__arrow">→</div>
-          <div class="cta__step">
-            <span>03</span>
-            <p>Kick-off do projeto</p>
-          </div>
-        </div>
-        <a href="mailto:contato@ritecnologia.com.br" class="btn btn--primary btn--lg">Entre em contato</a>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container footer__inner">
-      <img src="assets/logo.jpeg" alt="RI Tecnologia" class="footer__logo" width="120" height="36">
-      <p>&copy; 2026 RI Tecnologia. Todos os direitos reservados.</p>
-    </div>
-  </footer>
-
-  <script src="js/main.js"></script>
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>
