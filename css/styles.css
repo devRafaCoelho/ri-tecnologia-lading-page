@@ -7,6 +7,7 @@
   --green: #66bb6a;
   --green-light: #7cb342;
   --gradient-brand: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue-light) 50%, var(--green-light) 100%);
+  --gradient-btn: linear-gradient(90deg, var(--blue-dark) 0%, var(--blue-light) 52%, var(--green-light) 100%);
   --gradient-text: linear-gradient(90deg, var(--blue-light), var(--green-light));
   --bg: #f8f9fb;
   --bg-alt: #ffffff;
@@ -92,7 +93,11 @@ ul {
 }
 
 .btn--primary {
-  background: var(--gradient-brand);
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border: none;
+  background: var(--gradient-btn);
   color: #fff;
   box-shadow: 0 4px 16px rgba(0, 122, 212, 0.35);
 }
