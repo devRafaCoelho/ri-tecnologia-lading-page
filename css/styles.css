@@ -1029,6 +1029,17 @@ ul {
     pointer-events: all;
   }
 
+  .header__nav a:not(.btn) {
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
+
+  .header__nav .btn--sm {
+    font-size: 1.05rem;
+    padding: 12px 28px;
+    width: 100%;
+  }
+
   .services-grid,
   .clients-grid,
   .team-grid,
