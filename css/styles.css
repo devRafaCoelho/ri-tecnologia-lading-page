@@ -17,7 +17,7 @@
   --shadow-lg: 0 12px 48px rgba(0, 74, 173, 0.12);
   --radius: 12px;
   --radius-lg: 20px;
-  --header-h: 72px;
+  --header-h: 88px;
   --transition: 0.3s ease;
 }
 
@@ -146,7 +146,7 @@ ul {
 }
 
 .header__logo img {
-  height: 44px;
+  height: 68px;
   width: auto;
   object-fit: contain;
 }
