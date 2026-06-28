@@ -1,1 +1,0 @@
-# ri-tecnologia-lading-page
