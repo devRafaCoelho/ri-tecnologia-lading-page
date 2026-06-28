@@ -20,7 +20,7 @@
   <body>
     <!-- Header -->
     <header class="header" id="header">
-      <div class="container header__inner">
+      <div class="header__inner">
         <a href="#inicio" class="header__logo">
           <img
             src="assets/logo.jpeg"
@@ -55,22 +55,24 @@
       <!-- Hero -->
       <section class="hero" id="inicio">
         <div class="hero__bg"></div>
-        <div class="container hero__content">
-          <span class="hero__tag">Apresentação Executiva</span>
-          <h1 class="hero__title">
-            Soluções em<br />
-            <span class="gradient-text">Tecnologia</span>
-          </h1>
-          <p class="hero__subtitle">
-            Consultoria especializada em desenvolvimento de software, automação,
-            monitoramento e infraestrutura — entregando valor real ao seu
-            negócio.
-          </p>
-          <div class="hero__actions">
-            <a href="#servicos" class="btn btn--primary"
-              >Conheça nossos serviços</a
-            >
-            <a href="#contato" class="btn btn--outline">Fale conosco</a>
+        <div class="container hero__inner">
+          <div class="hero__main">
+            <span class="hero__tag">Apresentação Executiva</span>
+            <h1 class="hero__title">
+              Soluções em<br />
+              <span class="gradient-text">Tecnologia</span>
+            </h1>
+            <p class="hero__subtitle">
+              Consultoria especializada em desenvolvimento de software, automação,
+              monitoramento e infraestrutura — entregando valor real ao seu
+              negócio.
+            </p>
+            <div class="hero__actions">
+              <a href="#servicos" class="btn btn--primary"
+                >Conheça nossos serviços</a
+              >
+              <a href="#contato" class="btn btn--outline">Fale conosco</a>
+            </div>
           </div>
           <div class="hero__stats">
             <div class="stat">
@@ -93,24 +95,9 @@
       <section class="section" id="sobre">
         <div class="container">
           <div class="section__header">
-            <span class="section__tag">Institucional</span>
             <h2 class="section__title">Quem Somos</h2>
           </div>
           <div class="about">
-            <div class="about__text">
-              <p>
-                A <strong>RI Tecnologia</strong> é uma empresa especializada em
-                consultoria e desenvolvimento de soluções tecnológicas, atuando
-                há mais de 4 anos no mercado com o objetivo de apoiar empresas
-                na transformação digital.
-              </p>
-              <p>
-                Nosso foco está em entregar soluções robustas, escaláveis e
-                seguras, alinhadas às necessidades estratégicas de cada cliente
-                — desde a fase de discovery até a sustentação em ambiente
-                produtivo.
-              </p>
-            </div>
             <div class="about__cards">
               <div class="card card--mission">
                 <div class="card__icon">
@@ -152,6 +139,20 @@
                 </ul>
               </div>
             </div>
+            <div class="about__text">
+              <p>
+                A <strong>RI Tecnologia</strong> é uma empresa especializada em
+                consultoria e desenvolvimento de soluções tecnológicas, atuando
+                há mais de 4 anos no mercado com o objetivo de apoiar empresas
+                na transformação digital.
+              </p>
+              <p>
+                Nosso foco está em entregar soluções robustas, escaláveis e
+                seguras, alinhadas às necessidades estratégicas de cada cliente
+                — desde a fase de discovery até a sustentação em ambiente
+                produtivo.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -160,7 +161,6 @@
       <section class="section section--alt" id="servicos">
         <div class="container">
           <div class="section__header">
-            <span class="section__tag">Escopo Técnico</span>
             <h2 class="section__title">Nossos Serviços</h2>
             <p class="section__desc">
               Soluções completas para impulsionar a transformação digital do seu
@@ -169,8 +169,10 @@
           </div>
           <div class="services-grid">
             <article class="service-card">
-              <div class="service-card__icon">⚙</div>
-              <h3>Automação de Rotinas</h3>
+              <div class="service-card__header">
+                <div class="service-card__icon">⚙</div>
+                <h3>Automação de Rotinas</h3>
+              </div>
               <ul>
                 <li>Identificação de processos passíveis de automação</li>
                 <li>Desenvolvimento de scripts (Python, PowerShell)</li>
@@ -180,8 +182,10 @@
             </article>
 
             <article class="service-card">
-              <div class="service-card__icon">📊</div>
-              <h3>Dashboards</h3>
+              <div class="service-card__header">
+                <div class="service-card__icon">📊</div>
+                <h3>Dashboards</h3>
+              </div>
               <ul>
                 <li>Levantamento de KPIs com stakeholders</li>
                 <li>Configuração de fontes de dados no Grafana</li>
@@ -191,8 +195,10 @@
             </article>
 
             <article class="service-card">
-              <div class="service-card__icon">🗄</div>
-              <h3>Configuração de Banco de Dados</h3>
+              <div class="service-card__header">
+                <div class="service-card__icon">🗄</div>
+                <h3>Configuração de Banco de Dados</h3>
+              </div>
               <ul>
                 <li>Integração com OTRS, Zabbix e Grafana</li>
                 <li>Conexões seguras e consultas otimizadas</li>
@@ -201,8 +207,10 @@
             </article>
 
             <article class="service-card">
-              <div class="service-card__icon">🔗</div>
-              <h3>Integrações &amp; APIs</h3>
+              <div class="service-card__header">
+                <div class="service-card__icon">🔗</div>
+                <h3>Integrações &amp; APIs</h3>
+              </div>
               <ul>
                 <li>Mapeamento de APIs internas e externas</li>
                 <li>Autenticação e autorização seguras</li>
@@ -211,8 +219,10 @@
             </article>
 
             <article class="service-card service-card--wide">
-              <div class="service-card__icon">💻</div>
-              <h3>Desenvolvimento de Aplicações</h3>
+              <div class="service-card__header">
+                <div class="service-card__icon">💻</div>
+                <h3>Desenvolvimento de Aplicações</h3>
+              </div>
               <div class="service-card__steps">
                 <div class="step">
                   <span class="step__num">1</span>
@@ -264,7 +274,6 @@
       <section class="section" id="metodologia">
         <div class="container">
           <div class="section__header">
-            <span class="section__tag">Institucional</span>
             <h2 class="section__title">Metodologia de Trabalho</h2>
           </div>
           <div class="methodology">
@@ -337,7 +346,6 @@
       <section class="section section--alt" id="equipe">
         <div class="container">
           <div class="section__header">
-            <span class="section__tag">Institucional</span>
             <h2 class="section__title">Nossa Equipe</h2>
             <p class="section__desc">
               Time full-cycle com expertise completa em todas as jornadas do
@@ -393,7 +401,6 @@
       <section class="section" id="stack">
         <div class="container">
           <div class="section__header">
-            <span class="section__tag">Escopo Técnico</span>
             <h2 class="section__title">Stack Tecnológica</h2>
           </div>
           <div class="stack-grid">
@@ -480,7 +487,6 @@
       <section class="section section--alt" id="clientes">
         <div class="container">
           <div class="section__header">
-            <span class="section__tag">Institucional</span>
             <h2 class="section__title">Nossos Clientes</h2>
             <p class="section__desc">
               Ao longo de sua trajetória, a RI Tecnologia tem atuado em projetos
