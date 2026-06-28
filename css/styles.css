@@ -517,19 +517,18 @@ ul {
 .service-card li {
   font-size: 1rem;
   color: var(--text-muted);
-  padding: 5px 0 5px 20px;
+  padding: 6px 0 6px 22px;
   position: relative;
 }
 
 .service-card li::before {
-  content: '';
+  content: '✓';
   position: absolute;
   left: 0;
-  top: 13px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--gradient-brand);
+  top: 6px;
+  color: var(--green-light);
+  font-weight: 700;
+  font-size: 0.9rem;
 }
 
 .service-card__steps {
