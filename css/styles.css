@@ -380,8 +380,7 @@ ul {
 
 .about__text {
   max-width: 900px;
-  margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .about__text p {
@@ -1000,6 +999,34 @@ ul {
   color: rgba(255, 255, 255, 0.4);
 }
 
+/* ===== WhatsApp Float ===== */
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  background: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.45);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.whatsapp-float svg {
+  width: 30px;
+  height: 30px;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 28px rgba(37, 211, 102, 0.55);
+}
+
 /* ===== Animations ===== */
 .fade-in {
   opacity: 0;
@@ -1045,6 +1072,15 @@ ul {
 
   .service-card__steps {
     grid-template-columns: 1fr;
+  }
+
+  .hero__actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero__actions .btn {
+    width: 100%;
   }
 }
 
@@ -1114,5 +1150,17 @@ ul {
 
   .cta__arrow {
     display: none;
+  }
+
+  .whatsapp-float {
+    bottom: 20px;
+    right: 20px;
+    width: 54px;
+    height: 54px;
+  }
+
+  .whatsapp-float svg {
+    width: 28px;
+    height: 28px;
   }
 }
