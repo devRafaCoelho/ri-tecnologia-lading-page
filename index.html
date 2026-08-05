@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="RI Tecnologia — Consultoria especializada em desenvolvimento de software, automação, monitoramento e infraestrutura."
+      content="RI Tecnologia — automação, software e infraestrutura para operações mais eficientes. Diagnóstico gratuito com time full-cycle."
     />
-    <title>RI Tecnologia | Soluções em Tecnologia</title>
+    <meta
+      property="og:title"
+      content="RI Tecnologia | Tecnologia que opera o seu negócio"
+    />
+    <meta
+      property="og:description"
+      content="Automação, integrações e software sob medida para empresas que precisam escalar com eficiência. Agende um diagnóstico."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/logo.png" />
+    <title>RI Tecnologia | Tecnologia que opera o seu negócio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -32,7 +42,7 @@
         </linearGradient>
       </defs>
     </svg>
-    <!-- Header -->
+
     <header class="header" id="header">
       <div class="header__inner">
         <a class="header__logo" href="#inicio" aria-label="RI Tecnologia">
@@ -55,13 +65,18 @@
           <span></span>
         </button>
         <nav class="header__nav" id="navMenu">
-          <a href="#sobre">Sobre</a>
           <a href="#servicos">Serviços</a>
-          <a href="#metodologia">Metodologia</a>
-          <a href="#equipe">Equipe</a>
-          <a href="#stack">Stack</a>
           <a href="#clientes">Clientes</a>
-          <a class="btn btn--sm header__cta" href="#contato">Contato</a>
+          <a href="#como-trabalhamos">Como trabalhamos</a>
+          <a href="#casos">Casos de uso</a>
+          <a href="#sobre">Sobre</a>
+          <a
+            class="btn btn--sm header__cta"
+            href="https://wa.me/557191143017?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20RI%20Tecnologia%20e%20gostaria%20de%20agendar%20um%20diagn%C3%B3stico."
+            target="_blank"
+            rel="noopener noreferrer"
+            >Agendar diagnóstico</a
+          >
         </nav>
       </div>
     </header>
@@ -69,518 +84,229 @@
     <main>
       <!-- Hero -->
       <section class="hero" id="inicio">
-        <div class="hero__bg"></div>
         <div class="container hero__inner">
-          <div class="hero__main">
+          <div class="hero__content">
+            <p class="hero__brand">RI Tecnologia</p>
             <h1 class="hero__title">
-              Soluções em<br />
-              <span class="gradient-text">Tecnologia</span>
+              Tecnologia que<br />
+              <span class="gradient-text">opera o seu negócio</span>
             </h1>
             <p class="hero__subtitle">
-              Consultoria especializada em desenvolvimento de software,
-              automação, monitoramento e infraestrutura — entregando valor real
-              ao seu negócio.
+              Automação, software e infraestrutura para empresas que precisam
+              escalar sem perder controle — do diagnóstico à produção.
             </p>
             <div class="hero__actions">
-              <a href="#servicos" class="btn btn--primary"
-                >Conheça nossos serviços</a
+              <a
+                href="https://wa.me/557191143017?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20RI%20Tecnologia%20e%20gostaria%20de%20agendar%20um%20diagn%C3%B3stico."
+                class="btn btn--primary"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Agendar diagnóstico</a
               >
-              <a href="#contato" class="btn btn--outline">Fale conosco</a>
+              <a href="#servicos" class="btn btn--outline">Conhecer serviços</a>
             </div>
           </div>
-          <div class="hero__stats">
-            <div class="stat">
-              <span class="stat__number">4+</span>
-              <span class="stat__label">Anos de mercado</span>
-            </div>
-            <div class="stat">
-              <span class="stat__number">Full-Cycle</span>
-              <span class="stat__label">Equipe multidisciplinar</span>
-            </div>
-            <div class="stat">
-              <span class="stat__number">Ágil</span>
-              <span class="stat__label">Metodologias consolidadas</span>
-            </div>
+          <div class="hero__visual">
+            <img
+              src="assets/arte-RI.jpg"
+              alt="Arte visual RI Tecnologia — blocos isométricos e stack tecnológica"
+              width="1600"
+              height="893"
+              fetchpriority="high"
+            />
           </div>
         </div>
       </section>
 
-      <!-- Sobre -->
-      <section class="section" id="sobre">
+      <!-- Dores -->
+      <section class="section" id="dores" aria-labelledby="dores-title">
         <div class="container">
           <div class="section__header">
-            <h2 class="section__title">Quem Somos</h2>
+            <p class="section__tag">O que resolvemos</p>
+            <h2 class="section__title" id="dores-title">
+              Problemas que travam a operação
+            </h2>
+            <p class="section__desc">
+              Se algo disso soa familiar, é exatamente onde a gente entra.
+            </p>
           </div>
-          <div class="about">
-            <div class="about__cards">
-              <div class="card card--mission">
-                <div class="card__header">
-                  <div class="card__icon">
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    >
-                      <path d="M12 2L2 7l10 5 10-5-10-5z" />
-                      <path d="M2 17l10 5 10-5" />
-                      <path d="M2 12l10 5 10-5" />
-                    </svg>
-                  </div>
-                  <h3>Missão</h3>
-                </div>
-                <p>
-                  Apoiar a transformação digital com qualidade técnica e geração
-                  de valor real para o negócio.
-                </p>
-              </div>
-              <div class="card card--diff">
-                <div class="card__header">
-                  <div class="card__icon">
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                    >
-                      <polygon
-                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
-                      />
-                    </svg>
-                  </div>
-                  <h3>Diferenciais</h3>
-                </div>
-                <ul>
-                  <li>
-                    Equipe Multidisciplinar, profissionais com perfil full-cycle
-                  </li>
-                  <li>Metodologias ágeis consolidadas</li>
-                  <li>Foco em inovação contínua</li>
-                </ul>
-              </div>
-            </div>
-            <div class="about__text">
-              <p>
-                A <strong>RI Tecnologia</strong> é uma empresa especializada em
-                consultoria e desenvolvimento de soluções tecnológicas, atuando
-                há mais de 4 anos no mercado com o objetivo de apoiar empresas
-                na transformação digital.
-              </p>
-              <p>
-                Nosso foco está em entregar soluções robustas, escaláveis e
-                seguras, alinhadas às necessidades estratégicas de cada cliente
-                — desde a fase de discovery até a sustentação em ambiente
-                produtivo.
-              </p>
-            </div>
-          </div>
+          <ul class="pain-grid">
+            <li class="pain-card">
+              <span class="pain-card__icon" aria-hidden="true">01</span>
+              <p>Processos manuais que consomem horas da equipe</p>
+            </li>
+            <li class="pain-card">
+              <span class="pain-card__icon" aria-hidden="true">02</span>
+              <p>Sistemas desconectados e dados espalhados</p>
+            </li>
+            <li class="pain-card">
+              <span class="pain-card__icon" aria-hidden="true">03</span>
+              <p>Falta de visibilidade em tempo real</p>
+            </li>
+            <li class="pain-card">
+              <span class="pain-card__icon" aria-hidden="true">04</span>
+              <p>Dificuldade de escalar sem contratar na mesma proporção</p>
+            </li>
+          </ul>
         </div>
       </section>
 
       <!-- Serviços -->
-      <section class="section section--alt" id="servicos">
+      <section class="section" id="servicos">
         <div class="container">
           <div class="section__header">
-            <h2 class="section__title">Nossos Serviços</h2>
+            <p class="section__tag">Serviços</p>
+            <h2 class="section__title">Soluções que geram impacto</h2>
             <p class="section__desc">
-              Soluções completas para impulsionar a transformação digital do seu
-              negócio.
+              Da automação pontual ao sistema sob medida — desenhado para o seu
+              contexto.
             </p>
           </div>
           <div class="services-grid">
             <article class="service-card">
-              <div class="service-card__header">
-                <div class="service-card__icon">
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="url(#service-icon-gradient)"
-                    stroke-width="1.75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <circle cx="12" cy="12" r="3" />
-                    <path
-                      d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"
-                    />
-                  </svg>
-                </div>
-                <h3>Automação de Rotinas</h3>
+              <div class="service-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="url(#service-icon-gradient)"
+                  stroke-width="1.75"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="3" />
+                  <path
+                    d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"
+                  />
+                </svg>
               </div>
-              <ul>
-                <li>Identificação de processos passíveis de automação</li>
-                <li>Desenvolvimento de scripts (Python, PowerShell)</li>
-                <li>Testes, validação e documentação</li>
-                <li>Treinamento dos usuários finais</li>
-              </ul>
+              <h3>Automação de processos</h3>
+              <p>
+                Elimine tarefas repetitivas e libere a equipe para o que importa
+                — fluxos inteligentes ligados aos seus sistemas.
+              </p>
             </article>
 
             <article class="service-card">
-              <div class="service-card__header">
-                <div class="service-card__icon">
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="url(#service-icon-gradient)"
-                    stroke-width="1.75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M3 3v18h18" />
-                    <path d="M7 16l4-4 4 4 5-6" />
-                  </svg>
-                </div>
-                <h3>Dashboards</h3>
+              <div class="service-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="url(#service-icon-gradient)"
+                  stroke-width="1.75"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M3 3v18h18" />
+                  <path d="M7 16l4-4 4 4 5-6" />
+                </svg>
               </div>
-              <ul>
-                <li>Levantamento de KPIs com stakeholders</li>
-                <li>Dashboards interativos customizados</li>
-                <li>Alertas e notificações por métricas</li>
-              </ul>
+              <h3>Dashboards e dados</h3>
+              <p>
+                KPIs que a liderança realmente usa: painéis, alertas e métricas
+                para decidir com base em dados, não em intuição.
+              </p>
             </article>
 
             <article class="service-card">
-              <div class="service-card__header">
-                <div class="service-card__icon">
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="url(#service-icon-gradient)"
-                    stroke-width="1.75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <ellipse cx="12" cy="5" rx="9" ry="3" />
-                    <path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5" />
-                    <path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3" />
-                  </svg>
-                </div>
-                <h3>Configuração de Banco de Dados</h3>
+              <div class="service-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="url(#service-icon-gradient)"
+                  stroke-width="1.75"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                  />
+                  <path
+                    d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                  />
+                </svg>
               </div>
-              <ul>
-                <li>Integração com OTRS, Zabbix e Grafana</li>
-                <li>Conexões seguras e consultas otimizadas</li>
-                <li>Gestão de banco de dados, independente da tecnologia</li>
-              </ul>
+              <h3>Integrações e APIs</h3>
+              <p>
+                Conecte ERPs, CRMs, planilhas e ferramentas legadas em um fluxo
+                único — sem silos e sem retrabalho.
+              </p>
             </article>
 
             <article class="service-card">
-              <div class="service-card__header">
-                <div class="service-card__icon">
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="url(#service-icon-gradient)"
-                    stroke-width="1.75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path
-                      d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
-                    />
-                    <path
-                      d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
-                    />
-                  </svg>
-                </div>
-                <h3>Integrações &amp; APIs</h3>
+              <div class="service-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="url(#service-icon-gradient)"
+                  stroke-width="1.75"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="2" y="3" width="20" height="14" rx="2" />
+                  <path d="M8 21h8M12 17v4" />
+                </svg>
               </div>
-              <ul>
-                <li>Mapeamento de APIs internas e externas</li>
-                <li>Autenticação e autorização seguras</li>
-                <li>Testes de integração e documentação</li>
-              </ul>
+              <h3>Desenvolvimento de aplicações</h3>
+              <p>
+                Apps e sistemas full-stack, do discovery ao go-live — com
+                sustentação e evolução em produção.
+              </p>
             </article>
 
-            <article class="service-card service-card--wide">
-              <div class="service-card__header">
-                <div class="service-card__icon">
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="url(#service-icon-gradient)"
-                    stroke-width="1.75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <rect x="2" y="3" width="20" height="14" rx="2" />
-                    <path d="M8 21h8M12 17v4" />
-                  </svg>
-                </div>
-                <h3>Desenvolvimento de Aplicações</h3>
+            <article class="service-card">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="url(#service-icon-gradient)"
+                  stroke-width="1.75"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <ellipse cx="12" cy="5" rx="9" ry="3" />
+                  <path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5" />
+                  <path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3" />
+                </svg>
               </div>
-              <div class="service-card__steps">
-                <div class="step">
-                  <span class="step__num">1</span>
-                  <div>
-                    <strong>Coleta de Requisitos</strong>
-                    <p>
-                      Definição de escopo com stakeholders e levantamento
-                      funcional completo.
-                    </p>
-                  </div>
-                </div>
-                <div class="step">
-                  <span class="step__num">2</span>
-                  <div>
-                    <strong>Tecnologias &amp; Frameworks</strong>
-                    <p>Escolha da stack adequada ao contexto.</p>
-                  </div>
-                </div>
-                <div class="step">
-                  <span class="step__num">3</span>
-                  <div>
-                    <strong>Desenvolvimento Full-Stack</strong>
-                    <p>
-                      Boas práticas de engenharia: front-end, back-end e
-                      integrações.
-                    </p>
-                  </div>
-                </div>
-                <div class="step">
-                  <span class="step__num">4</span>
-                  <div>
-                    <strong>Testes &amp; Deploy</strong>
-                    <p>
-                      Unitários, integração e aceitação — implantação em
-                      produção com suporte pós-go-live.
-                    </p>
-                  </div>
-                </div>
+              <h3>Dados e infraestrutura</h3>
+              <p>
+                Bancos otimizados, monitoramento e cloud com segurança — a base
+                sob a qual o restante da operação roda.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="url(#service-icon-gradient)"
+                  stroke-width="1.75"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
               </div>
+              <h3>DevOps e segurança</h3>
+              <p>
+                CI/CD, monitoramento e práticas de segurança para entregar com
+                confiança e manter estabilidade no dia a dia.
+              </p>
             </article>
           </div>
         </div>
       </section>
 
-      <!-- Metodologia -->
-      <section class="section" id="metodologia">
+      <!-- Clientes (prova social cedo) -->
+      <section class="section" id="clientes">
         <div class="container">
           <div class="section__header">
-            <h2 class="section__title">Metodologia de Trabalho</h2>
-          </div>
-          <div class="methodology">
-            <div class="timeline">
-              <div class="timeline__item">
-                <div class="timeline__num">01</div>
-                <div class="timeline__content">
-                  <h3>Discovery &amp; Entendimento do Negócio</h3>
-                  <p>
-                    Levantamento de requisitos e definição inicial do escopo da
-                    solução.
-                  </p>
-                </div>
-              </div>
-              <div class="timeline__item">
-                <div class="timeline__num">02</div>
-                <div class="timeline__content">
-                  <h3>Planejamento &amp; Priorização</h3>
-                  <p>
-                    Estruturação do backlog e priorização de entregas com o
-                    cliente.
-                  </p>
-                </div>
-              </div>
-              <div class="timeline__item">
-                <div class="timeline__num">03</div>
-                <div class="timeline__content">
-                  <h3>Desenvolvimento Iterativo (Sprints)</h3>
-                  <p>Entregas incrementais e validação contínua</p>
-                </div>
-              </div>
-              <div class="timeline__item">
-                <div class="timeline__num">04</div>
-                <div class="timeline__content">
-                  <h3>Entrega Contínua &amp; Melhoria Evolutiva</h3>
-                  <p>
-                    Entregas ao final de cada ciclo com validação pelos
-                    stakeholders.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="methodology__details">
-              <div class="detail-card">
-                <h4>Cerimônias Scrum</h4>
-                <p>
-                  Sprint Planning · Daily Meeting · Sprint Review · Sprint
-                  Retrospective
-                </p>
-              </div>
-              <div class="detail-card">
-                <h4>Gestão Visual — Kanban</h4>
-                <div class="kanban">
-                  <span>Backlog</span>
-                  <span>Em Dev</span>
-                  <span>Revisão</span>
-                  <span>Testes</span>
-                  <span>Concluído</span>
-                </div>
-              </div>
-              <div class="detail-card detail-card--benefits">
-                <h4>Benefícios</h4>
-                <ul>
-                  <li>Maior agilidade nas entregas</li>
-                  <li>Adaptação rápida a mudanças</li>
-                  <li>Transparência total no projeto</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Equipe -->
-      <section class="section section--alt" id="equipe">
-        <div class="container">
-          <div class="section__header">
-            <h2 class="section__title">Nossa Equipe</h2>
+            <p class="section__tag">Clientes</p>
+            <h2 class="section__title">Empresas que confiam na RI</h2>
             <p class="section__desc">
-              Time full-cycle com expertise completa em todas as jornadas do
-              projeto.
-            </p>
-          </div>
-          <div class="team-grid">
-            <div class="team-card">
-              <div class="team-card__header team-card__header--blue">
-                <h3>Gestão &amp; Estratégia</h3>
-              </div>
-              <ul>
-                <li>Consultoria e Discovery</li>
-                <li>Product Owner</li>
-                <li>Scrum Master</li>
-                <li>Planejamento estratégico</li>
-              </ul>
-            </div>
-            <div class="team-card">
-              <div class="team-card__header team-card__header--green">
-                <h3>Desenvolvimento</h3>
-              </div>
-              <ul>
-                <li>Design UI/UX</li>
-                <li>Frontend &amp; Mobile</li>
-                <li>Backend &amp; APIs</li>
-                <li>Banco de dados</li>
-                <li>Prototipagem interativa</li>
-              </ul>
-            </div>
-            <div class="team-card">
-              <div class="team-card__header team-card__header--gradient">
-                <h3>Infraestrutura &amp; Segurança</h3>
-              </div>
-              <ul>
-                <li>Cloud Computing</li>
-                <li>DevOps &amp; Monitoramento</li>
-                <li>SecurityOps</li>
-                <li>Proteção contra ameaças</li>
-              </ul>
-            </div>
-          </div>
-          <div class="team-banner">
-            <strong>Time Full-Cycle</strong> — Todos os desenvolvedores possuem
-            expertise em backend, frontend, banco de dados, monitoramento e
-            DevOps, garantindo atendimento completo em todas as jornadas do
-            projeto.
-          </div>
-        </div>
-      </section>
-
-      <!-- Stack -->
-      <section class="section" id="stack">
-        <div class="container">
-          <div class="section__header">
-            <h2 class="section__title">Stack Tecnológica</h2>
-          </div>
-          <div class="stack-grid">
-            <div class="stack-group">
-              <h4>Frontend</h4>
-              <div class="tags">
-                <span>HTML5 + CSS</span><span>Angular JS</span
-                ><span>React JS</span> <span>Vue JS</span><span>Bootstrap</span>
-              </div>
-            </div>
-            <div class="stack-group">
-              <h4>Backend</h4>
-              <div class="tags">
-                <span>Node.js</span><span>Python / FastAPI</span
-                ><span>C# .NET Core</span> <span>PHP</span><span>Ruby</span
-                ><span>Go</span>
-              </div>
-            </div>
-            <div class="stack-group">
-              <h4>Banco de Dados</h4>
-              <div class="tags">
-                <span>SQL Server</span><span>MySQL</span><span>PostgreSQL</span>
-                <span>MongoDB</span><span>DBA &amp; Performance</span>
-              </div>
-            </div>
-            <div class="stack-group">
-              <h4>Monitoramento</h4>
-              <div class="tags">
-                <span>Grafana</span><span>Zabbix</span
-                ><span>ElasticSearch</span> <span>DynaTrace</span
-                ><span>Datadog</span>
-              </div>
-            </div>
-            <div class="stack-group">
-              <h4>DevOps</h4>
-              <div class="tags">
-                <span>CI/CD</span><span>SonarQube</span
-                ><span>Testes Unitários</span>
-                <span>Multi-ambiente</span>
-              </div>
-            </div>
-            <div class="stack-group">
-              <h4>Big Data</h4>
-              <div class="tags">
-                <span>Pandas / Numpy</span><span>SSIS (ETL)</span>
-                <span>Analysis Services</span><span>Star / Snowflake</span>
-              </div>
-            </div>
-          </div>
-          <div class="model-pillars">
-            <h3>Modelo de Trabalho</h3>
-            <div class="pillars">
-              <div class="pillar">
-                <strong>SCRUM</strong>
-                <p>
-                  Reuniões diárias (Daily) para alinhamento e visibilidade
-                  contínua das atividades.
-                </p>
-              </div>
-              <div class="pillar">
-                <strong>Sprints</strong>
-                <p>
-                  Ciclos quinzenais com entrega de melhorias contínuas
-                  implementadas e validadas.
-                </p>
-              </div>
-              <div class="pillar">
-                <strong>Kanban</strong>
-                <p>
-                  Visibilidade total das atividades de cada sprint com
-                  acompanhamento em tempo real.
-                </p>
-              </div>
-            </div>
-            <p class="pillars-footer">
-              Transparência · Celeridade · Qualidade · Melhoria Contínua ·
-              Alinhamento constante com o cliente
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Clientes -->
-      <section class="section section--alt" id="clientes">
-        <div class="container">
-          <div class="section__header">
-            <h2 class="section__title">Nossos Clientes</h2>
-            <p class="section__desc">
-              Ao longo de sua trajetória, a RI Tecnologia tem atuado em projetos
-              relevantes junto a empresas e instituições de diferentes
-              segmentos, contribuindo para o desenvolvimento de soluções
-              tecnológicas que apoiam a transformação digital.
+              Projetos em energia, educação, crédito e transformação digital —
+              de instituições de referência a grupos em escala.
             </p>
           </div>
           <div class="clients-grid">
@@ -633,59 +359,366 @@
         </div>
       </section>
 
+      <!-- Como trabalhamos -->
+      <section class="section" id="como-trabalhamos">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__tag">Como trabalhamos</p>
+            <h2 class="section__title">Do problema ao resultado</h2>
+            <p class="section__desc">
+              Processo transparente, entregas incrementais e foco em valor desde
+              o primeiro contato.
+            </p>
+          </div>
+          <ol class="process-grid">
+            <li class="process-card">
+              <span class="process-card__num">01</span>
+              <h3>Diagnóstico</h3>
+              <p>
+                Mapeamos processos, sistemas e gargalos. Mostramos onde a
+                tecnologia gera mais impacto — e o que não vale a pena
+                automatizar.
+              </p>
+            </li>
+            <li class="process-card">
+              <span class="process-card__num">02</span>
+              <h3>Planejamento</h3>
+              <p>
+                Roadmap claro com prioridades, escopo e entregas incrementais.
+                Você sabe o que sai em cada etapa — sem surpresas.
+              </p>
+            </li>
+            <li class="process-card">
+              <span class="process-card__num">03</span>
+              <h3>Implementação</h3>
+              <p>
+                Desenvolvimento iterativo com acompanhamento próximo.
+                Automações, integrações e sistemas sobem para produção com
+                validação contínua.
+              </p>
+            </li>
+            <li class="process-card">
+              <span class="process-card__num">04</span>
+              <h3>Resultado e evolução</h3>
+              <p>
+                Métricas visíveis, suporte pós-go-live e melhoria contínua — a
+                solução acompanha o ritmo do seu negócio.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Casos de uso -->
+      <section class="section" id="casos">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__tag">Casos de uso</p>
+            <h2 class="section__title">Aplicações práticas</h2>
+            <p class="section__desc">
+              Cenários em que automação e engenharia geram valor rápido — com
+              benefício claro para a operação.
+            </p>
+          </div>
+          <div class="use-cases-grid">
+            <article class="use-case-card">
+              <p class="use-case-card__area">Operações</p>
+              <h3>Rotinas automatizadas de ponta a ponta</h3>
+              <p class="use-case-card__result">
+                Menos trabalho manual e menos erros em tarefas repetitivas.
+              </p>
+              <ol class="use-case-card__flow">
+                <li>Processo mapeado</li>
+                <li>Fluxo automatizado</li>
+                <li>Alerta se falhar</li>
+                <li>Horas liberadas</li>
+              </ol>
+            </article>
+            <article class="use-case-card">
+              <p class="use-case-card__area">Gestão</p>
+              <h3>Dashboard de KPIs em tempo real</h3>
+              <p class="use-case-card__result">
+                Decisões com base em dados atualizados, não em planilhas
+                avulsas.
+              </p>
+              <ol class="use-case-card__flow">
+                <li>Fontes conectadas</li>
+                <li>Indicadores definidos</li>
+                <li>Painel ao vivo</li>
+                <li>Decisão guiada</li>
+              </ol>
+            </article>
+            <article class="use-case-card">
+              <p class="use-case-card__area">Integrações</p>
+              <h3>Sistemas falando a mesma língua</h3>
+              <p class="use-case-card__result">
+                Dados fluindo entre sistemas — sem retrabalho de digitação.
+              </p>
+              <ol class="use-case-card__flow">
+                <li>API mapeada</li>
+                <li>Conector seguro</li>
+                <li>Dados sincronizados</li>
+                <li>Zero retrabalho</li>
+              </ol>
+            </article>
+            <article class="use-case-card">
+              <p class="use-case-card__area">Produto</p>
+              <h3>Aplicação do MVP à produção</h3>
+              <p class="use-case-card__result">
+                Software em produção cedo, com evolução contínua após o go-live.
+              </p>
+              <ol class="use-case-card__flow">
+                <li>Discovery</li>
+                <li>Primeira versão</li>
+                <li>Testes e deploy</li>
+                <li>Evolução contínua</li>
+              </ol>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sobre -->
+      <section class="section" id="sobre">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__tag">Sobre</p>
+            <h2 class="section__title">
+              Time full-cycle focado em resultado de negócio
+            </h2>
+            <p class="section__desc">
+              Entregamos o que a operação precisa no dia a dia: automação de
+              processos, integrações entre sistemas, dashboards, aplicações sob
+              medida e infraestrutura com monitoramento. Atuamos há mais de 4
+              anos em energia, educação e serviços financeiros — do discovery à
+              sustentação em produção.
+            </p>
+          </div>
+          <div class="diff-grid">
+            <article class="diff-card">
+              <h3>Full-cycle de verdade</h3>
+              <p>
+                Backend, frontend, dados, DevOps e monitoramento no mesmo time.
+              </p>
+            </article>
+            <article class="diff-card">
+              <h3>Visão ponta a ponta</h3>
+              <p>Do alinhamento com o negócio à operação em produção.</p>
+            </article>
+            <article class="diff-card">
+              <h3>Entrega incremental</h3>
+              <p>
+                Valor visível cedo, com validação contínua dos stakeholders.
+              </p>
+            </article>
+            <article class="diff-card">
+              <h3>Foco em operação</h3>
+              <p>Soluções robustas, escaláveis e pensadas para o uso real.</p>
+            </article>
+            <article class="diff-card">
+              <h3>Comunicação clara</h3>
+              <p>
+                Tecnologia traduzida para linguagem de negócio — sem jargão
+                desnecessário.
+              </p>
+            </article>
+            <article class="diff-card">
+              <h3>Parceria de longo prazo</h3>
+              <p>
+                Evolução e suporte após o go-live, não só o projeto fechado.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stack -->
+      <section class="section" id="stack">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__tag">Stack</p>
+            <h2 class="section__title">Tecnologia escolhida a dedo</h2>
+            <p class="section__desc">
+              As ferramentas certas para cada contexto — sem modismo, com foco
+              em resultado e manutenção.
+            </p>
+          </div>
+          <div class="stack-grid">
+            <article class="stack-card">
+              <h3>Frontend</h3>
+              <div class="tags">
+                <span>React</span>
+                <span>Vue</span>
+                <span>Angular</span>
+                <span>HTML/CSS</span>
+              </div>
+              <p>Interfaces rápidas e consistentes.</p>
+            </article>
+            <article class="stack-card">
+              <h3>Backend</h3>
+              <div class="tags">
+                <span>Node.js</span>
+                <span>Python</span>
+                <span>.NET</span>
+                <span>APIs</span>
+              </div>
+              <p>Serviços sob medida para o seu domínio.</p>
+            </article>
+            <article class="stack-card">
+              <h3>Dados</h3>
+              <div class="tags">
+                <span>SQL Server</span>
+                <span>PostgreSQL</span>
+                <span>MySQL</span>
+                <span>MongoDB</span>
+              </div>
+              <p>Performance e confiabilidade em produção.</p>
+            </article>
+            <article class="stack-card">
+              <h3>Cloud e DevOps</h3>
+              <div class="tags">
+                <span>CI/CD</span>
+                <span>Multi-ambiente</span>
+                <span>Containers</span>
+              </div>
+              <p>Deploys reproduzíveis e estáveis.</p>
+            </article>
+            <article class="stack-card">
+              <h3>Monitoramento</h3>
+              <div class="tags">
+                <span>Grafana</span>
+                <span>Zabbix</span>
+                <span>Elastic</span>
+              </div>
+              <p>Observabilidade do que importa.</p>
+            </article>
+            <article class="stack-card">
+              <h3>Automação e BI</h3>
+              <div class="tags">
+                <span>Scripts</span>
+                <span>ETL</span>
+                <span>Dashboards</span>
+              </div>
+              <p>Fechando o ciclo da operação.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__tag">Dúvidas frequentes</p>
+            <h2 class="section__title">Antes de agendar</h2>
+            <p class="section__desc">
+              Respostas diretas sobre como funciona o primeiro contato.
+            </p>
+          </div>
+          <div class="faq-list">
+            <details class="faq-item">
+              <summary>O diagnóstico é gratuito?</summary>
+              <p>
+                Sim. No diagnóstico entendemos o cenário, apontamos
+                oportunidades e sugerimos o melhor caminho — sem compromisso de
+                contratação.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary>Como funciona o primeiro contato?</summary>
+              <p>
+                Você agenda pelo WhatsApp. Alinhamos data e objetivos, fazemos
+                uma conversa de diagnóstico e retornamos com próximos passos
+                claros.
+              </p>
+            </details>
+            <details class="faq-item">
+              <summary>Atendem de forma remota?</summary>
+              <p>
+                Sim. Trabalhamos de forma remota com acompanhamento próximo.
+                Quando o projeto exige, combinamos interações presenciais.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
       <!-- CTA -->
       <section class="cta" id="contato">
         <div class="container cta__inner">
-          <h2>Pronto para <span class="cta__highlight">iniciar</span>?</h2>
+          <p class="cta__tag">Próximo passo</p>
+          <h2>
+            Pronto para
+            <span class="cta__highlight">destravar</span> a operação?
+          </h2>
           <p>
-            Estamos à disposição para alinhar os detalhes, esclarecer dúvidas e
-            formalizar o início da parceria.
+            Agende um diagnóstico gratuito no WhatsApp. Entendemos o cenário,
+            apontamos oportunidades e mostramos o melhor caminho — sem
+            compromisso.
           </p>
-          <div class="cta__steps">
-            <div class="cta__step">
-              <span>01</span>
-              <p>Alinhamento inicial</p>
-            </div>
-            <div class="cta__arrow">→</div>
-            <div class="cta__step">
-              <span>02</span>
-              <p>Definição de escopo</p>
-            </div>
-            <div class="cta__arrow">→</div>
-            <div class="cta__step">
-              <span>03</span>
-              <p>Kick-off do projeto</p>
-            </div>
+          <div class="cta__actions">
+            <a
+              href="https://wa.me/557191143017?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20RI%20Tecnologia%20e%20gostaria%20de%20agendar%20um%20diagn%C3%B3stico."
+              class="btn btn--primary btn--lg"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Agendar diagnóstico no WhatsApp</a
+            >
+            <a
+              href="mailto:italo.nascimento@ritecnologia.com?subject=Diagn%C3%B3stico%20RI%20Tecnologia&body=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20diagn%C3%B3stico%20com%20a%20RI%20Tecnologia."
+              class="btn btn--outline btn--lg"
+              >Enviar e-mail</a
+            >
           </div>
-          <a
-            href="mailto:italo.nascimento@ritecnologia.com"
-            class="btn btn--primary btn--lg"
-            >Entre em contato</a
-          >
         </div>
       </section>
     </main>
 
-    <!-- Footer -->
     <footer class="footer">
       <div class="container footer__inner">
-        <img
-          src="assets/logo.png"
-          alt="RI Tecnologia"
-          class="footer__logo"
-          width="160"
-          height="52"
-        />
-        <p>&copy; 2026 RI Tecnologia. Todos os direitos reservados.</p>
+        <div class="footer__main">
+          <a
+            class="footer__brand"
+            href="#inicio"
+            aria-label="RI Tecnologia — início"
+          >
+            <img
+              src="assets/logo.png"
+              alt="RI Tecnologia"
+              class="footer__logo"
+              width="280"
+              height="84"
+            />
+          </a>
+          <nav class="footer__nav" aria-label="Navegação do rodapé">
+            <a href="#servicos">Serviços</a>
+            <a href="#clientes">Clientes</a>
+            <a href="#como-trabalhamos">Como trabalhamos</a>
+            <a href="#casos">Casos de uso</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#faq">Dúvidas</a>
+          </nav>
+          <a
+            class="footer__wa"
+            href="https://wa.me/557191143017?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20RI%20Tecnologia%20e%20gostaria%20de%20agendar%20um%20diagn%C3%B3stico."
+            target="_blank"
+            rel="noopener noreferrer"
+            >Agendar diagnóstico</a
+          >
+        </div>
+        <p class="footer__copy">
+          &copy; 2026 RI Tecnologia. Todos os direitos reservados.
+        </p>
       </div>
     </footer>
 
     <a
-      href="https://wa.me/557191143017?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20RI%20Tecnologia%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os."
+      href="https://wa.me/557191143017?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20RI%20Tecnologia%20e%20gostaria%20de%20agendar%20um%20diagn%C3%B3stico."
       class="whatsapp-float"
+      id="whatsappFloat"
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Fale conosco pelo WhatsApp"
+      aria-label="Agendar diagnóstico pelo WhatsApp"
     >
       <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
         <path
